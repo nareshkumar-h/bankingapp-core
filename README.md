@@ -4,12 +4,12 @@
 * User Module
 * Accounts Module
 
-#### Features: User Module
+#### Module 1 - User Module Features
 * New User Registration
 * Login
 * List all users
 
-#### Features: Account Module
+#### Module 2 - Account Module Features
 * Create Account
 * Find account for the given user
 * Find all accounts
