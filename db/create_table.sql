@@ -27,4 +27,8 @@ select * from accounts;
 
 create table transactions ( id int primary key auto_increment,
 account_id int not null,
-transaction_date timestamp );
+balance int not null,
+transaction_type varchar(100),
+transaction_date timestamp not null,
+foreign key (account_id) references accounts(id)
+);
