@@ -23,3 +23,8 @@ values ( 1, 1, 1000),(2,2,2000);
 
 select * from users;
 select * from accounts;
+
+
+create table transactions ( id int primary key auto_increment,
+account_id int not null,
+transaction_date timestamp );
